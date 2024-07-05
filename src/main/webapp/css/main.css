@@ -1,0 +1,42 @@
+body {
+	background-color: antiquewhite;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	min-height: 100%;
+}
+
+.box-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 600px;
+}
+
+p, h2, .button-get-phrase {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+p, .button-get-phrase {
+	font-size: 16px;
+}
+
+.button-get-phrase {
+	text-align: center;
+	transition: 0.5s;
+	width: 200px;
+	align-self: center;
+	height: 40px;
+}

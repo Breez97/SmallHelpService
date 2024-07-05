@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  tomcat:
+    image: tomcat:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./target/HelpServiceServlet.war:/usr/local/tomcat/webapps/HelpServiceServlet.war
+    restart: on-failure
