@@ -83,6 +83,8 @@ Collect `war` archive with `maven` using command: `mvn package`.
 
 ![Collect `war` archive](./misc/images/collect_war_archive.png)
 
+For testing application `war` archive can be added into webapps folder into tomcat. After that `Tomcat` should be started and the application will pe placed on `localhost:8080/HelpServiceServlet`.
+
 ## Part 5. Run Tomcat with war archive using docker-compose
 
 ### - Task
